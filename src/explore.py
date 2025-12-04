@@ -15,7 +15,7 @@ from .data import compile_data
 from .tools import (ego_to_cam, get_only_in_img_mask, denormalize_img,
                     SimpleLoss, get_val_info, add_ego, gen_dx_bx,
                     get_nusc_maps, plot_nusc_map)
-from .models import compile_model
+from .models_inv import compile_model
 
 
 def lidar_check(version,
