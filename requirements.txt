@@ -1,0 +1,6 @@
+numpy==1.26.4
+fire==0.7.1
+nuscenes-devkit==1.2.0
+tensorboardX==2.6.4
+tensorboard==2.11.2 
+efficientnet_pytorch==0.7.0

@@ -24,10 +24,13 @@ If you found this codebase useful in your research, please consider citing
 ```
 
 ### Preparation
-Download nuscenes data from [https://www.nuscenes.org/](https://www.nuscenes.org/). Install dependencies.
-
+Download nuscenes data from [https://www.nuscenes.org/](https://www.nuscenes.org/).  
+Set up environment and install dependencies.
 ```
-pip install nuscenes-devkit tensorboardX efficientnet_pytorch==0.7.0
+cd lift-splat-shoot
+python3.8 -m venv LSS_env
+source LSS_env/bin/activate
+pip3 install -r requirements.txt
 ```
 
 ### Pre-trained Model
