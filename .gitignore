@@ -103,8 +103,12 @@ celerybeat-schedule
 env/
 venv/
 ENV/
+NOA-161_env/
 env.bak/
 venv.bak/
+
+# Data
+data/
 
 # Spyder project settings
 .spyderproject
@@ -128,6 +132,7 @@ dmypy.json
 *.jpg
 *.png
 *.pt
+*.onnx
 *.json
 runs/
 goodmodel.pt.bak

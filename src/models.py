@@ -193,7 +193,7 @@ class LiftSplatShoot(nn.Module):
         x = x.view(B*N, C, imH, imW)
         x = self.camencode(x)
         x = x.view(B, N, self.camC, self.D, imH//self.downsample, imW//self.downsample)
-        x = x.permute(0, 1, 3, 4, 5, 2)
+        x = x.permute(0, 1, 3, 4, 5, 2) # change order
 
         return x
 
