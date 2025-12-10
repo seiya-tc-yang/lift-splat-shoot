@@ -13,7 +13,7 @@ pip3 install -r requirements.txt
 Separate LSS structure to CAM and BEV, export their respective class to onnx.
 
 ```
-python main.py eval_model_iou mini/trainval --modelf=MODEL_LOCATION --dataroot=NUSCENES_ROOT
+ python separative_export.py
 ```
 
 
