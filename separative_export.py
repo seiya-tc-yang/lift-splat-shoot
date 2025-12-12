@@ -42,7 +42,7 @@ def export_CAM_encode(model, output_path="CAM_encode.onnx"):
         output_names=['features'],  
         dynamic_axes={
             'imgs': {0: 'batch_size'},
-            'features': {0: 'batch_size'}
+            'features': {0: 'batch_size'},
         }
     )
     

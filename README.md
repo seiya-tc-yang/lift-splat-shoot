@@ -16,6 +16,11 @@ Separate LSS structure to CAM and BEV, export their respective class to onnx.
  python separative_export.py
 ```
 
+### Evaluate converted CAM_encode ONNX model
+Inference PT/ONNX with the same input img from NuScene dataset, then process value check.
+```
+ python main.py compare_models model525000.pt CAM_encode.onnx
+```
 
 
 
